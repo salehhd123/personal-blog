@@ -1,0 +1,12 @@
+.container1 {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 109px 136px 655px;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "first-blog"
+    "bar"
+    "pra";
+}
+

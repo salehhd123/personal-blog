@@ -1,0 +1,14 @@
+.first-blog { 
+    grid-area: first-blog; 
+ background-color:#8ecae6;
+}
+.first-blog h1{
+    text-align: center;
+}
+
+.bar { grid-area: bar;
+    background-color: #219ebc;
+ }
+
+ 
+

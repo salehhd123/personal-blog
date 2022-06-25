@@ -1,0 +1,107 @@
+@import url(gha.css);
+@import url(container-blog.css);
+@import url(blog.css);
+
+
+@media all and (max-width:1000px){
+*{
+margin: 0;
+padding: 0;
+font-size: 15px;
+}
+#imge{
+  height: 200px;
+  width: 200px;
+}
+.info{
+  width: fit-content;
+}
+.thebar{
+  font-size: small;
+}
+}
+.container {  
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 109px 136px 555px;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header"
+    "bar bar"
+    "photo info";
+}
+
+.header {
+   grid-area: header;
+background-color:#8ecae6;
+}
+.header h1 {
+  text-align: center;
+}
+
+.bar { grid-area: bar;
+background-color: #219ebc;
+}
+.bar nav{
+align-items: center;
+}
+
+
+.thebar{
+display: flex;
+width: 30%;
+text-decoration: none;
+font-weight: bold;
+font-size: 25px;
+padding: 20px;
+justify-content: space-around ;
+}
+
+.thebar li{
+list-style: none;
+}
+
+.thebar li a{
+color:white;
+text-align: center;
+}
+
+.photo { 
+  grid-area: photo; 
+background-color: #fb8500;
+
+}
+
+.info { grid-area: info;
+background-color: #ffb703;
+ }
+
+#strong{
+font-size: 30px;
+color:black;
+ }
+
+ footer{
+background-color: #023047;
+height: 50px;
+margin: 0;
+padding: 0;
+ }
+
+footer p{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+ }
+
+ footer a {
+color: black;
+ }
+
+ #but{
+    color: black;
+    font-size: 15px;
+ }
+
